@@ -1,15 +1,22 @@
 .place__paragraph {
-  margin: 0 0 26px 0;
+  padding: 0;
+  margin: 0 0 26px;
   font-size: 18px;
-  line-height: 29.32px;
-  font-weight: normal;
-  color: #ffffff;
+  line-height: 29.34px;
+  font-weight: 400;
+  color: #FFFFFF;
+  max-width: 484px;
 }
 
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
@@ -19,8 +26,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
-    margin: 0 0 25px 0;
+    max-width: 288px;
+    margin: 0 0 25px;
   }
 }
