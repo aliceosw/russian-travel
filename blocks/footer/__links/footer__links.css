@@ -22,14 +22,8 @@
   }
 
   .footer__links:last-of-type {
-    margin-bottom: 48px;
+    margin: 0;
   }
-}
-
-@media screen and (max-width: 767px) {
-.footer__links:last-of-type {
-  margin: 0;
-}
 }
 
 
