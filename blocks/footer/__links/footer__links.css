@@ -26,4 +26,8 @@
   }
 }
 
+.footer__links:last-of-type {
+  margin: 0;
+}
+
 
