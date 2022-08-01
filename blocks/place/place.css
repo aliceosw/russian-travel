@@ -1,18 +1,20 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr minmax(30ch, 1fr);
+  grid-template-columns: 1fr minmax(460px, 484px);
   gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-gap: 48px 32px;
+    grid-template-columns: 1fr minmax(440px, 456px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-gap: 48px 28px;
+    grid-template-columns: 1fr minmax(340px, 352px);
   }
 }
 
