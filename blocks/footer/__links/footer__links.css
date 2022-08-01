@@ -22,7 +22,7 @@
   }
 
   .footer__links:last-of-type {
-    margin: 0;
+    margin-bottom: 0;
   }
 }
 
